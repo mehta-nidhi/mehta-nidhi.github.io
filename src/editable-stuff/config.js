@@ -46,7 +46,7 @@ const mainBody = {
 
 const about = {
   show: true,
-  heading: "About Me",
+  heading: <strong>About Me</strong>,
   imageLink: require("../editable-stuff/nidhimehta.jpg"),
   imageSize: 375,
   message:
@@ -61,7 +61,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: <strong>Projects</strong>,
   gitHubUsername: "mehta-nidhi", //i.e."johnDoe12Gh"
   reposLength: 5,
   specificRepos: [],
@@ -94,7 +94,7 @@ const leadership = {
 // SKILLS SECTION
 const skills = {
   show: true,
-  heading: "Skills",
+  heading: <strong>Skills</strong>,
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
@@ -120,7 +120,7 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: <strong>Get In Touch</strong>,
   message:
     "I'm currently looking for full-time UX/UI or Graphics designing opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "nidhisheryl@gmail.com",
@@ -128,7 +128,7 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: <strong>Experience</strong>,
   data: [
     {
       role: 'UI/UX Designer',

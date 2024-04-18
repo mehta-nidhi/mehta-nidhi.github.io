@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, experiences, repos, about, skills, getInTouch } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -49,8 +49,24 @@ const Navigation = React.forwardRef((props, ref) => {
               <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
             </NavLink>
           } */}
-          {repos.show && (
+          {about.show && (
+            <NavLink
+              className="nav-item lead"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
+            >
+              About
+            </NavLink>
+          )}
 
+          {experiences.show && (
+            <NavLink
+              href={process.env.PUBLIC_URL + "/#experience"}
+            >
+              Experience
+            </NavLink>
+          )}
+
+          {repos.show && (
             <NavLink
               href={process.env.PUBLIC_URL + "/#projects"}
             >
@@ -65,20 +81,22 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </NavLink>
-          {about.show && (
-            <NavLink
-              className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
-            >
-              About
-            </NavLink>
-          )}
+
           {skills.show && (
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
+            </NavLink>
+          )}
+
+          {getInTouch.show && (
+            <NavLink
+              className="nav-item lead"
+              href={process.env.PUBLIC_URL + "/#getInTouch"}
+            >
+              Get In Touch
             </NavLink>
           )}
         </Nav>
