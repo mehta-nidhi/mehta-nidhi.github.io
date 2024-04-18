@@ -127,18 +127,32 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'UI/UX Designer',
+      company: 'eDataMine',
+      companylogo: require('../assets/img/edatamine.png'),
+      date: 'May 2020 – December 2022',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Talent Acquisition and Digital Marketing Specialist',
+      company: 'TalentRupt Inc., India',
+      companylogo: require('../assets/img/talentrupt.jpeg'),
+      date: 'December 2016 – November 2019',
+    },
+    {
+      role: 'Junior Web Designer',
+      company: 'Quantum Technolabs Pvt. Ltd.',
+      companylogo: require('../assets/img/quantum.png'),
+      date: 'May 2015 – October 2016',
+    },
+    {
+      role: 'Web Design Intern',
+      company: 'Jazz Branding, India',
+      companylogo: require('../assets/img/jazz.jpg'),
+      date: 'December 2016 – November 2019',
     },
   ]
 }
