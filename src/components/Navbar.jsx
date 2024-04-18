@@ -54,7 +54,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              About
+              <strong>About</strong>
             </NavLink>
           )}
 
@@ -62,7 +62,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               href={process.env.PUBLIC_URL + "/#experience"}
             >
-              Experience
+              <strong>Experience</strong>
             </NavLink>
           )}
 
@@ -70,7 +70,7 @@ const Navigation = React.forwardRef((props, ref) => {
             <NavLink
               href={process.env.PUBLIC_URL + "/#projects"}
             >
-              Projects
+              <strong>Projects</strong>
             </NavLink>
           )}
           <NavLink
@@ -79,7 +79,7 @@ const Navigation = React.forwardRef((props, ref) => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            Resume
+            <strong>Resume</strong>
           </NavLink>
 
           {skills.show && (
@@ -87,7 +87,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
-              Skills
+              <strong>Skills</strong>
             </NavLink>
           )}
 
@@ -96,7 +96,7 @@ const Navigation = React.forwardRef((props, ref) => {
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#getInTouch"}
             >
-              Get In Touch
+              <strong>Get In Touch</strong>
             </NavLink>
           )}
         </Nav>
