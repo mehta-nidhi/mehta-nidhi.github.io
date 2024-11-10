@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.52ce5ec4.css",
-    "main.js": "/static/js/main.ffbad95f.js",
+    "main.css": "/static/css/main.59b7df57.css",
+    "main.js": "/static/js/main.e90d4c02.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/Ecommerce.png": "/static/media/Ecommerce.74e146490aa91c69669c.png",
     "static/media/doodle.jpg": "/static/media/doodle.20d1c1357b58d59b6947.jpg",
@@ -10,15 +10,16 @@
     "static/media/logo.jpg": "/static/media/logo.c1978f4b679f5ea6b0fb.jpg",
     "static/media/nidhimehta.jpg": "/static/media/nidhimehta.151a3fd66f83e65eb47d.jpg",
     "static/media/ios.jpg": "/static/media/ios.a4b6bb8cd9b08d934c5e.jpg",
+    "static/media/medium.png": "/static/media/medium.01be2e71ad1f03134d18.png",
     "static/media/icon.jpg": "/static/media/icon.29d793245aa200ef1ff0.jpg",
     "static/media/quantum.png": "/static/media/quantum.e0b7ef9df5faf101cff4.png",
     "index.html": "/index.html",
-    "main.52ce5ec4.css.map": "/static/css/main.52ce5ec4.css.map",
-    "main.ffbad95f.js.map": "/static/js/main.ffbad95f.js.map",
+    "main.59b7df57.css.map": "/static/css/main.59b7df57.css.map",
+    "main.e90d4c02.js.map": "/static/js/main.e90d4c02.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ce5ec4.css",
-    "static/js/main.ffbad95f.js"
+    "static/css/main.59b7df57.css",
+    "static/js/main.e90d4c02.js"
   ]
 }
